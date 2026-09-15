@@ -1,0 +1,1 @@
+ElevenLabs error: {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission text_to_speech to execute this operation.","status":"missing_permissions","request_id":"c25d561c966b3730985327fad90ccf0a"}}
