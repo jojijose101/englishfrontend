@@ -1,12 +1,19 @@
 {
   "version": 2,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/speaksmart/wsgi.py" }
-  ],
-  "functions": {
-    "speaksmart/wsgi.py": {
-      "runtime": "python3.12",
-      "maxDuration": 30
+  "builds": [
+    {
+      "src": "speaksmart/wsgi.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "50mb",
+        "runtime": "python3.12"
+      }
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "speaksmart/wsgi.py"
+    }
+  ]
 }
