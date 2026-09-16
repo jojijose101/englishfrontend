@@ -4,13 +4,12 @@ import { getFirestore } from 'firebase/firestore'
 
 // Firebase config — from console.firebase.google.com
 const firebaseConfig = {
-  apiKey: "AIzaSyBmSPdbgBM__8KpB3M9K3h10EVHjDhkZ5U",
-  authDomain: "englishspeech-2ce95.firebaseapp.com",
-  projectId: "englishspeech-2ce95",
-  storageBucket: "englishspeech-2ce95.firebasestorage.app",
-  messagingSenderId: "457257916568",
-  appId: "1:457257916568:web:d1f5a936d4b7b9f19718ed",
-  measurementId: "G-QRC6932EVQ"
+  apiKey: "AIzaSyAyJfR5qrL-MsZH2qo9zKdLhrdBt6wab7o",
+  authDomain: "englishguru-83dcd.firebaseapp.com",
+  projectId: "englishguru-83dcd",
+  storageBucket: "englishguru-83dcd.firebasestorage.app",
+  messagingSenderId: "896970802312",
+  appId: "1:896970802312:web:cee25364bb6f4d4d9f4b3d"
 }
 
 // Initialize Firebase — order matters: app first, then auth and db
